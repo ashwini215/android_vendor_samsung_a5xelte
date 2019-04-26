@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5xelte/proprietary/vendor/etc/wifi/nvram_mfg.txt_FD:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_FD \
     vendor/samsung/a5xelte/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
     vendor/samsung/a5xelte/proprietary/vendor/etc/wifi/nvram_net.txt_FD:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_FD \
-    vendor/samsung/a5xelte/proprietary/lib/hw/camera.universal7580.so:system/lib/hw/camera.universal7580.so \
+    vendor/samsung/a5xelte/proprietary/lib/hw/camera.vendor.universal7580.so:system/lib/hw/camera.vendor.universal7580.so \
     vendor/samsung/a5xelte/proprietary/lib/hw/nfc_nci.universal7580.so:system/lib/hw/nfc_nci.universal7580.so \
     vendor/samsung/a5xelte/proprietary/lib/hw/sensors.universal7580.so:system/lib/hw/sensors.universal7580.so \
     vendor/samsung/a5xelte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
