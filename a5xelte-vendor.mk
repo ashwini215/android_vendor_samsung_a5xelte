@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5xelte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/a5xelte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/a5xelte/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+    vendor/samsung/a5xelte/proprietary/vendor/etc/yas_set.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/yas_set.cfg \
     vendor/samsung/a5xelte/proprietary/vendor/firmware/bcm43454_V0161.0287.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm43454_V0161.0287.hcd \
     vendor/samsung/a5xelte/proprietary/vendor/firmware/fimc_is_fd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fd.bin \
     vendor/samsung/a5xelte/proprietary/vendor/firmware/fimc_is_fw2_3l2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_3l2.bin \
@@ -75,5 +76,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5xelte/proprietary/vendor/firmware/sec_s3fwrn5s_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3fwrn5s_firmware.bin \
     vendor/samsung/a5xelte/proprietary/vendor/firmware/setfile_3l2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3l2.bin \
     vendor/samsung/a5xelte/proprietary/vendor/firmware/setfile_5e3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e3.bin \
-    vendor/samsung/a5xelte/proprietary/vendor/lib/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyasalgo.so \
-    vendor/samsung/a5xelte/proprietary/vendor/etc/yas_set.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/yas_set.cfg
+    vendor/samsung/a5xelte/proprietary/vendor/lib/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyasalgo.so
